@@ -8,6 +8,7 @@ libelle: "En utilisant les outils favorisant un développement itératif et coll
 > **Développer** · En utilisant les outils favorisant un développement itératif et collaboratif
 
 ## 📎 Preuves
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "preuves" })
 ```

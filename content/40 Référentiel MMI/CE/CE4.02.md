@@ -8,6 +8,7 @@ libelle: "En s’appuyant sur des concepts théoriques issus de l’informatique
 > **Développer** · En s’appuyant sur des concepts théoriques issus de l’informatique et des sciences de l’information
 
 ## 📎 Preuves
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "preuves" })
 ```

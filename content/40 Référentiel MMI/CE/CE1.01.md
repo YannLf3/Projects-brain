@@ -8,6 +8,7 @@ libelle: "En intégrant les enjeux humains, écologiques et éthiques"
 > **Comprendre** · En intégrant les enjeux humains, écologiques et éthiques
 
 ## 📎 Preuves
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "preuves" })
 ```

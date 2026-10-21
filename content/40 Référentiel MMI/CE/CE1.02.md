@@ -8,6 +8,7 @@ libelle: "En écoutant et observant les utilisateurs"
 > **Comprendre** · En écoutant et observant les utilisateurs
 
 ## 📎 Preuves
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "preuves" })
 ```

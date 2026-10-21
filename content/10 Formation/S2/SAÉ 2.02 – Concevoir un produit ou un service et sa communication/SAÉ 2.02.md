@@ -32,6 +32,7 @@ Maquette puis landing page fictive WordPress pour le festival **Rock en Seine** 
 - Landing page WordPress (dépôt GitHub SAE202_Wordpress)
 
 ## 🪜 Déroulement (fiche de bord en 5 étapes)
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "etapes" })
 ```

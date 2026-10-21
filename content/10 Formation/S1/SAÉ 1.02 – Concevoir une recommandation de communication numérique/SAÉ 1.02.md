@@ -44,6 +44,7 @@ Pour l'agence ComUnity : recommandation marketing et plan de communication digit
 - Livrable 2 : plan de communication digitale (benchmark réseaux sociaux, stratégie, calendrier éditorial)
 
 ## 🪜 Déroulement (fiche de bord en 5 étapes)
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "etapes" })
 ```

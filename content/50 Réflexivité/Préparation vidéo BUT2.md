@@ -6,6 +6,7 @@ duree_cible: "5-6 min"
 # 🎬 Préparation de la vidéo (5-6 min)
 
 ## 0. Plan généré depuis tes meilleures preuves
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "plan-video" })
 ```
@@ -23,11 +24,13 @@ await dv.view("99 Système/scripts/portfolio", { mode: "plan-video" })
 **Situation** (SAÉ / projet) → **Tâche** → **Action** (ce que J'AI fait) → **Résultat** + AC / CE démontrés.
 
 ## 3. Banque de preuves par AC
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "banque" })
 ```
 
 ## 4. Points faibles à assumer
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "a-travailler" })
 ```

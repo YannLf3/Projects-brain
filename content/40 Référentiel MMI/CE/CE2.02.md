@@ -8,6 +8,7 @@ libelle: "En s’intégrant aux écosystèmes physiques et numériques des parti
 > **Concevoir** · En s’intégrant aux écosystèmes physiques et numériques des parties prenantes
 
 ## 📎 Preuves
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "preuves" })
 ```

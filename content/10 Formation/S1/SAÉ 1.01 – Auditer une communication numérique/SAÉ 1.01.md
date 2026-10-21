@@ -43,6 +43,7 @@ Audit complet du site du festival **IndieCade** (jeux vidéo indépendants) qui 
 - Livrable 2 : audit sémiotique et ergonomique du site
 
 ## 🪜 Déroulement (fiche de bord en 5 étapes)
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "etapes" })
 ```

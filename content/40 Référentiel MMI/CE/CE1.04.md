@@ -8,6 +8,7 @@ libelle: "En sollicitant des modèles théoriques issus des sciences humaines et
 > **Comprendre** · En sollicitant des modèles théoriques issus des sciences humaines et sociales
 
 ## 📎 Preuves
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "preuves" })
 ```

@@ -40,6 +40,7 @@ tags:
 - Livrable 2 : entretiens utilisateurs et modélisation (personae)
 
 ## 🪜 Déroulement (fiche de bord en 5 étapes)
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "etapes" })
 ```

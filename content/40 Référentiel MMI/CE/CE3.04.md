@@ -8,6 +8,7 @@ libelle: "En veillant à la qualité orthographique, grammaticale et typographiq
 > **Exprimer** · En veillant à la qualité orthographique, grammaticale et typographique des productions
 
 ## 📎 Preuves
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "preuves" })
 ```

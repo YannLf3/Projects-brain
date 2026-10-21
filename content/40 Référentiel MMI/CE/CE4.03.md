@@ -8,6 +8,7 @@ libelle: "En produisant du code fonctionnel, sobre et réutilisable"
 > **Développer** · En produisant du code fonctionnel, sobre et réutilisable
 
 ## 📎 Preuves
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "preuves" })
 ```

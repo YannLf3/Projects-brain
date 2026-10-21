@@ -8,6 +8,7 @@ libelle: "En respectant la stratégie de communication établie"
 > **Exprimer** · En respectant la stratégie de communication établie
 
 ## 📎 Preuves
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "preuves" })
 ```

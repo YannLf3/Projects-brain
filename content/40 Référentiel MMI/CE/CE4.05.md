@@ -8,6 +8,7 @@ libelle: "En veillant à la sécurité des systèmes et des données"
 > **Développer** · En veillant à la sécurité des systèmes et des données
 
 ## 📎 Preuves
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "preuves" })
 ```

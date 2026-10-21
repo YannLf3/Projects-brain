@@ -43,6 +43,7 @@ Intégrer et dynamiser en autonomie le site **One Page** d'une startup à partir
 - Site One Page de ma startup avec données aléatoires
 
 ## 🪜 Déroulement (fiche de bord en 5 étapes)
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "etapes" })
 ```

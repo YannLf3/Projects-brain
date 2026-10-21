@@ -8,6 +8,7 @@ libelle: "En s’appuyant sur les usages et les modes de communication observés
 > **Concevoir** · En s’appuyant sur les usages et les modes de communication observés
 
 ## 📎 Preuves
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "preuves" })
 ```

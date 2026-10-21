@@ -32,6 +32,7 @@ Site **click & collect** individuel : boutique de drones (e-commerce). DA inspir
 - Dépôt GitHub + README (analyse des user stories : graphe de dépendances et ordre de réalisation)
 
 ## 🪜 Déroulement (fiche de bord en 5 étapes)
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "etapes" })
 ```

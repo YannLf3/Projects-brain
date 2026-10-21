@@ -8,6 +8,7 @@ libelle: "En respectant le droit et la vie privée"
 > **Entreprendre** · En respectant le droit et la vie privée
 
 ## 📎 Preuves
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "preuves" })
 ```

@@ -8,6 +8,7 @@ libelle: "En favorisant la collaboration entre les parties prenantes du projet"
 > **Entreprendre** · En favorisant la collaboration entre les parties prenantes du projet
 
 ## 📎 Preuves
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "preuves" })
 ```

@@ -8,6 +8,7 @@ libelle: "En communiquant en français, en anglais ou dans d’autres langues"
 > **Exprimer** · En communiquant en français, en anglais ou dans d’autres langues
 
 ## 📎 Preuves
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "preuves" })
 ```

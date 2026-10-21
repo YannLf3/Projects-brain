@@ -8,6 +8,7 @@ libelle: "En présentant de façon convaincante la réponse proposée, en franç
 > **Concevoir** · En présentant de façon convaincante la réponse proposée, en français, en anglais ou dans d’autres langues
 
 ## 📎 Preuves
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "preuves" })
 ```

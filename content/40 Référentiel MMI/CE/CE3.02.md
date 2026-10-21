@@ -8,6 +8,7 @@ libelle: "En produisant un discours de qualité, appuyé sur les théories du r�
 > **Exprimer** · En produisant un discours de qualité, appuyé sur les théories du récit et les traditions narratives
 
 ## 📎 Preuves
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "preuves" })
 ```

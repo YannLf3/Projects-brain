@@ -41,6 +41,7 @@ tags:
 - Livrable 2 : 20 stickers (10 Photoshop + 10 Illustrator)
 
 ## 🪜 Déroulement (fiche de bord en 5 étapes)
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "etapes" })
 ```

@@ -15,6 +15,7 @@ tags:
 - **BUT2 (DWeb-DI)** : [[SAÉ 3.02]], [[SAÉ 3.DWeb-DI.01]], [[SAÉ 4.DWeb-DI.01]]
 
 ## 📊 Progression
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "competence" })
 ```

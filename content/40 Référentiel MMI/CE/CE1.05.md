@@ -8,6 +8,7 @@ libelle: "En restituant les résultats de manière synthétique"
 > **Comprendre** · En restituant les résultats de manière synthétique
 
 ## 📎 Preuves
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "preuves" })
 ```

@@ -45,6 +45,7 @@ Combinée à la SAÉ 1.02 : en tant que chargés de projet juniors, planifier, o
 - Analyse des écarts
 
 ## 🪜 Déroulement (fiche de bord en 5 étapes)
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "etapes" })
 ```

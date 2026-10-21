@@ -8,6 +8,7 @@ libelle: "En optimisant la responsabilité sociale et environnementale de l’or
 > **Concevoir** · En optimisant la responsabilité sociale et environnementale de l’organisation
 
 ## 📎 Preuves
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "preuves" })
 ```

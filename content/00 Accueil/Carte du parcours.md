@@ -6,6 +6,7 @@ cssclasses:
 # 🗺️ Carte du parcours
 Compétences → SAÉ et projets → apprentissages critiques, dans un Canvas zoomable. Clique pour la générer, puis à nouveau après avoir rempli des notes.
 
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "canvas" })
 ```

@@ -8,6 +8,7 @@ libelle: "En s’appuyant sur une veille technologique et des modèles de l’in
 > **Entreprendre** · En s’appuyant sur une veille technologique et des modèles de l’innovation
 
 ## 📎 Preuves
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "preuves" })
 ```

@@ -8,6 +8,7 @@ libelle: "En enrichissant sa démarche de connaissances sociologiques, esthétiq
 > **Concevoir** · En enrichissant sa démarche de connaissances sociologiques, esthétiques, culturelles et inter-culturelles
 
 ## 📎 Preuves
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "preuves" })
 ```

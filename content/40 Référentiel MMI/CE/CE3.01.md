@@ -8,6 +8,7 @@ libelle: "En veillant à la qualité esthétique des créations et en la justifi
 > **Exprimer** · En veillant à la qualité esthétique des créations et en la justifiant par des références culturelles et artistiques
 
 ## 📎 Preuves
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "preuves" })
 ```

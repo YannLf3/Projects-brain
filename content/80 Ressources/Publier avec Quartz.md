@@ -9,7 +9,7 @@ tags: [quartz, publication]
 ## 0. Ce qu'il faut savoir avant de commencer
 | Point | Conséquence |
 |---|---|
-| Quartz **n'exécute pas Dataview** | Les blocs `dataviewjs` s'afficheraient en code brut → il faut les masquer (étape 5, solution rapide) ou les « cuire » en Markdown avant le build (étape 9, solution propre). |
+| Quartz **n'exécute pas Dataview** | Chaque bloc `dataview`/`dataviewjs` du vault est précédé de `<!-- quartz:ignore -->`. Ce commentaire est invisible dans Obsidian et **ne fait rien tout seul** : c'est `publish.sh` (étape 6) qui supprime le marqueur et le bloc qui le suit. Pour les « cuire » en Markdown plutôt que les supprimer, voir l'étape 9. |
 | Quartz ne compte pas les liens écrits dans les **propriétés** | Les rétroliens d'une page AC seront vides tant que les blocs ne sont pas cuits. |
 | Le site est **public** | Exclure Stage, Inbox, Système ; anonymiser les noms de tiers (binômes, personnes interviewées pour le PAL). |
 | Les fichiers `.canvas` | Ne sont pas publiés : exporte la carte en image si tu veux la montrer. |
@@ -91,7 +91,7 @@ Dans `quartz/styles/custom.scss` (déjà présent), ajoute :
 ```scss
 @use "./base.scss";
 
-// Solution rapide : masquer les blocs Dataview (non exécutés par Quartz)
+// Filet de sécurité : masque un bloc Dataview qui aurait échappé au marqueur <!-- quartz:ignore -->
 figure[data-rehype-pretty-code-figure]:has(pre[data-language="dataviewjs"]),
 figure[data-rehype-pretty-code-figure]:has(pre[data-language="dataview"]) {
   display: none;
@@ -121,6 +121,9 @@ rsync -a --delete \
 
 # 2. Page d'accueil du site
 cp site-index.md content/index.md
+
+# 2bis. Retire les blocs Dataview marqués <!-- quartz:ignore --> (marqueur + bloc qui suit)
+find content -name '*.md' -exec perl -0pi -e 's/<!-- quartz:ignore -->\s*```dataview.*?```\s*//gs' {} +
 
 # 3. (Étape 9) cuisson des blocs Dataview
 [ -f scripts/bake.mjs ] && node scripts/bake.mjs content
@@ -213,3 +216,5 @@ Pour récupérer une nouvelle version de Quartz : `git pull upstream v4`, puis `
 - [ ] Aperçu local vérifié (`npx quartz build --serve`)
 - [ ] Liens externes testés
 - [ ] HTTPS activé sur le domaine
+
+> 🆕 **Nouvelle note avec un bloc Dataview ?** Mets `<!-- quartz:ignore -->` sur la ligne juste au-dessus du bloc (les modèles le font déjà).

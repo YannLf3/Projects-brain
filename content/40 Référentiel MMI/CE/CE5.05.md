@@ -8,6 +8,7 @@ libelle: "En exploitant des cadres de réflexion français et internationaux"
 > **Entreprendre** · En exploitant des cadres de réflexion français et internationaux
 
 ## 📎 Preuves
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "preuves" })
 ```

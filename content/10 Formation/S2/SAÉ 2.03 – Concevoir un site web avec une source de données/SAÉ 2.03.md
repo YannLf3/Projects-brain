@@ -51,6 +51,7 @@ Stack : HTML5 sémantique, framework CSS maison (@layer), JS modulaire, PHP MVC,
 - Audit Lighthouse
 
 ## 🪜 Déroulement (fiche de bord en 5 étapes)
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "etapes" })
 ```

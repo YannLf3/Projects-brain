@@ -8,6 +8,7 @@ libelle: "En s’appuyant sur des données quantitatives pertinentes et des outi
 > **Comprendre** · En s’appuyant sur des données quantitatives pertinentes et des outils statistiques adaptés
 
 ## 📎 Preuves
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "preuves" })
 ```

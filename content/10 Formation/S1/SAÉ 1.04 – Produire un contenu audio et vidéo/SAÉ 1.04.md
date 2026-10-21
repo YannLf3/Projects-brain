@@ -42,6 +42,7 @@ Clip publicitaire de 30 s en **stop motion** pour la campagne « Un pied dans un
 - Clip stop motion 30 s avec voix-off anglaise
 
 ## 🪜 Déroulement (fiche de bord en 5 étapes)
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "etapes" })
 ```

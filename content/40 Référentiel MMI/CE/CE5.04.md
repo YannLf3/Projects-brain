@@ -8,6 +8,7 @@ libelle: "En favorisant la sobriété numérique"
 > **Entreprendre** · En favorisant la sobriété numérique
 
 ## 📎 Preuves
+<!-- quartz:ignore -->
 ```dataviewjs
 await dv.view("99 Système/scripts/portfolio", { mode: "preuves" })
 ```
